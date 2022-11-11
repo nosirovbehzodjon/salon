@@ -1,38 +1,37 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.container{
+.container {
     width: 1440px;
     margin-left: 200px;
-    
 }
-.img{
+.img {
     background-image: url(./images/showcase-back-black.jpg);
     width: 1440px;
     height: 831px;
     /* margin-left: 200px;
     margin-top: 50px; */
 }
-.link{
+.link {
     display: flex;
     justify-content: space-between;
     width: 600px;
     height: 16px;
     margin-top: 71px;
     margin-right: 100px;
-    margin-left:400px ;
+    margin-left: 400px;
 }
-.showcase_control{
-    margin-top:100px;
+.showcase_control {
+    margin-top: 100px;
     margin-right: 5px;
 }
-.logo{
-    margin-top:73px ;
-    margin-left:20px ;
+.logo {
+    margin-top: 73px;
+    margin-left: 20px;
 }
-.button{
+.button {
     width: 182px;
     height: 52px;
     margin-top: 53px;
@@ -40,51 +39,92 @@
     background-color: darkgoldenrod;
     text-align: center;
 }
-.p{
-  color: aliceblue;
-  width: 450px;
-  font-size: 20px;
+.p {
+    color: aliceblue;
+    width: 450px;
+    font-size: 20px;
 }
-.salon{
-width: 513px;
-height: 90px;
-margin-top: 30px;
-/* margin-left: 10px; */
-color: aliceblue;
+.salon {
+    width: 513px;
+    height: 90px;
+    margin-top: 30px;
+    /* margin-left: 10px; */
+    color: aliceblue;
 }
-  ul {
+ul {
     list-style: none;
-  }
-  a {
+}
+a {
     text-decoration: none;
     color: darkorange;
-  }
-.welcome{
+}
+.welcome {
     font-family: sans-serif;
     font-size: 16px;
     width: 400px;
     color: darkgoldenrod;
     margin-top: 220px;
 }
-.img2{
-
+.img2 {
 }
-.class{
+.class {
     display: flex;
 }
-.showcase_control{
-display: flex;
+.showcase_control {
+    display: flex;
 }
 body {
     font-family: sans-serif;
-  }
+}
 ul {
     list-style: none;
-  }
+}
 .control_navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-    
-  }
+}
+
+/* start footer  */
+.container-behzod {
+    width: 1440px;
+    margin: 0 auto;
+}
+.control_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 555px;
+    background-color: #000000;
+}
+.logo_side {
+    background-color: yellow;
+    height: 100%;
+    width: 35%;
+}
+.get-started_side {
+    height: 100%;
+
+    background-color: orange;
+    width: 65%;
+}
+.started_side_top{
+  display: flex;
+  justify-content: flex-end;
+}
+.button-behzod{
+  pad: 15px 30px;
+  background-color: white;
+}
+.footer_list{
+  display: flex;
+  align-items: center;
+  width: 600px;
+  justify-content: space-between;
+}
+.social_media{
+  background-color: green;
+  display: flex;
+  justify-content: flex-end;
+}
+/* finish footer  */
