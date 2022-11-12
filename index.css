@@ -275,13 +275,10 @@ ul {
   color: aliceblue;
   size: 0px;
 }
-.days{
-
-}
 .working{
   display: flex;
 }
 .imgs{
   background-image: url(./images/two-men.png);
-  
+
 }
