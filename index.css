@@ -4,16 +4,9 @@
     box-sizing: border-box;
 }
 .container {
-<<<<<<< HEAD
-  width: 1200px;
-  margin: 0 auto;
-  /* background-color: red; */
   position: relative;
-=======
     width: 1200px;
     margin: 0 auto;
-    /* background-color: red; */
->>>>>>> 8e3bb5944dc556bc45ed9cd49bd22f8be043dd3f
 }
 .img {
     background-image: url(./images/showcase-back-black.jpg);
@@ -182,7 +175,6 @@ ul {
     align-items: center;
 }
 .haircut h2 {
-<<<<<<< HEAD
   font-size: 40px;
   margin-top: 30px;
   width: 400px;
@@ -285,7 +277,8 @@ ul {
 .working{
   display: flex;
 }
-.imgs{
+.imges{
   background-image: url(./images/two-men.png);
-
+width: 1200px;
+margin: 0 auto;
 }
