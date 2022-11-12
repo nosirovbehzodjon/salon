@@ -7,6 +7,7 @@
   width: 1200px;
   margin: 0 auto;
   /* background-color: red; */
+  position: relative;
 }
 .img {
   background-image: url(./images/showcase-back-black.jpg);
@@ -174,30 +175,113 @@ ul {
   /* background-color: blue; */
   align-items: center;
 }
-.haircut h2{
+.haircut h2 {
   font-size: 40px;
   margin-top: 30px;
   width: 400px;
 }
-.haircut p{
+.haircut p {
   width: 400px;
-margin-top: 40px;
+  margin-top: 40px;
 }
-.images{
+.images {
   background-image: url(./images/barber.jpg);
   height: 500px;
   margin-top: 150px;
 }
-.call{
+.call {
   width: 200px;
   height: 200px;
   background-color: aliceblue;
 }
-.showcase3_control{
+.showcase3_control {
   position: relative;
   display: flex;
+
+  margin-top: 100px;
 }
-.hairdress{
+.hairdress {
   align-items: center;
   padding: 50px 100px;
+  width: 600px;
+  top: 100px;
+  position: absolute;
+}
+.call {
+  position: absolute;
+  top: 200px;
+  right: 100px;
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+}
+.hairdress h2 {
+  font-size: 40px;
+  margin-top: 30px;
+  width: 400px;
+}
+.hairdress p {
+  width: 400px;
+  margin-top: 40px;
+}
+.call h3 {
+  margin-top: 30px;
+  color: gray;
+}
+.call h4 {
+  font-size: 20px;
+}
+.vector {
+  margin-top: 50px;
+}
+.working {
+  width: 1100px;
+  height: 390px;
+  background-color: darkgoldenrod;
+  right: 50px;
+  position: absolute;
+  top: 100px;
+}
+.posiotion3 {
+  height: 390px;
+  width: 400px;
+}
+.posiotion3 h4{
+  font-size: 40px;
+  margin-top: 30px;
+  width: 400px;
+}
+.container2{
+  width: 1200px;
+  margin: 0 auto;
+  /* background-color: red; */
+  position: relative;
+  height: 700px;
+}
+.span{
+  width: 800px;
+  height: 0.5px;
+  border: 1px dashed;
+  /* background-color: blue; */
+  display: inline-block;
+}
+.jadval{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 200px;
+}
+.h4{
+  color: aliceblue;
+  size: 0px;
+}
+.days{
+
+}
+.working{
+  display: flex;
+}
+.imgs{
+  background-image: url(./images/two-men.png);
+  
 }
